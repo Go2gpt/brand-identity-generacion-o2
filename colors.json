@@ -1,0 +1,105 @@
+{
+  "brand": "Generación O2",
+  "version": "1.0",
+  "note": "Paleta inferida del análisis visual de generacion-o2.org. Los valores hex marcados con [estimado] deben verificarse con el equipo de diseño o inspeccionando el CSS de la web.",
+  "colors": [
+    {
+      "name": "Verde O2",
+      "slug": "green-o2",
+      "hex": "#2ECC71",
+      "rgb": "rgb(46, 204, 113)",
+      "cmyk": "C:77 M:0 Y:45 K:20",
+      "pantone": "[por definir]",
+      "status": "estimado",
+      "usage": "Color primario de identidad. Botones CTA, acentos principales, encabezados destacados, logo."
+    },
+    {
+      "name": "Verde Oscuro O2",
+      "slug": "green-dark-o2",
+      "hex": "#1A8A4A",
+      "rgb": "rgb(26, 138, 74)",
+      "cmyk": "C:81 M:0 Y:46 K:46",
+      "pantone": "[por definir]",
+      "status": "estimado",
+      "usage": "Variante oscura del primario. Hover de botones, textos sobre fondo claro, elementos de profundidad."
+    },
+    {
+      "name": "Blanco",
+      "slug": "white",
+      "hex": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "cmyk": "C:0 M:0 Y:0 K:0",
+      "status": "confirmado",
+      "usage": "Fondo principal, texto sobre fondos oscuros, variante negativa del logo."
+    },
+    {
+      "name": "Gris Claro",
+      "slug": "gray-light",
+      "hex": "#F5F5F5",
+      "rgb": "rgb(245, 245, 245)",
+      "cmyk": "C:0 M:0 Y:0 K:4",
+      "status": "estimado",
+      "usage": "Fondos de sección alternativa, separadores visuales, tarjetas de contenido."
+    },
+    {
+      "name": "Gris Texto",
+      "slug": "gray-text",
+      "hex": "#555555",
+      "rgb": "rgb(85, 85, 85)",
+      "cmyk": "C:0 M:0 Y:0 K:67",
+      "status": "estimado",
+      "usage": "Cuerpo de texto secundario, descripciones, metadatos."
+    },
+    {
+      "name": "Negro Suave",
+      "slug": "black-soft",
+      "hex": "#1A1A1A",
+      "rgb": "rgb(26, 26, 26)",
+      "cmyk": "C:0 M:0 Y:0 K:90",
+      "status": "estimado",
+      "usage": "Títulos principales, texto de alto contraste, fondos oscuros."
+    },
+    {
+      "name": "Color Área Cultura",
+      "slug": "area-culture",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área de Cultura."
+    },
+    {
+      "name": "Color Área Diversidad",
+      "slug": "area-diversity",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área de Diversidad / LGTBIQ+."
+    },
+    {
+      "name": "Color Área Salud",
+      "slug": "area-health",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área de Salud."
+    },
+    {
+      "name": "Color Área Sostenibilidad",
+      "slug": "area-sustainability",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área de Sostenibilidad."
+    },
+    {
+      "name": "Color Área Tecnología",
+      "slug": "area-tech",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área de Tecnología."
+    },
+    {
+      "name": "Color Área Social",
+      "slug": "area-social",
+      "hex": "[por definir]",
+      "status": "pendiente",
+      "usage": "Color de acento para el área Social."
+    }
+  ]
+}
