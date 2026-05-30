@@ -1,105 +1,72 @@
 {
   "brand": "Generación O2",
-  "version": "1.0",
-  "note": "Paleta inferida del análisis visual de generacion-o2.org. Los valores hex marcados con [estimado] deben verificarse con el equipo de diseño o inspeccionando el CSS de la web.",
-  "colors": [
+  "version": "2.0",
+  "source": "Extraído directamente del CSS del tema (wp-bootstrap-starter-child/style.css) y de los píxeles del logo (logo_go2.png). Sin estimaciones.",
+  "typography": {
+    "primary": "Gotham (GothamRounded — Light/Medium/Bold)",
+    "secondary": "Montserrat (Google Fonts)",
+    "icons": "Font Awesome 5.1.0",
+    "stack": "'Gotham', sans-serif"
+  },
+  "logo_colors": [
     {
-      "name": "Verde O2",
-      "slug": "green-o2",
-      "hex": "#2ECC71",
-      "rgb": "rgb(46, 204, 113)",
-      "cmyk": "C:77 M:0 Y:45 K:20",
-      "pantone": "[por definir]",
-      "status": "estimado",
-      "usage": "Color primario de identidad. Botones CTA, acentos principales, encabezados destacados, logo."
+      "name": "Verde Logo",
+      "slug": "logo-green",
+      "hex": "#93BD2F",
+      "rgb": "rgb(147, 189, 47)",
+      "source": "pixel del logo",
+      "usage": "Letra 'G' y exponente '2' del logotipo Go2."
     },
     {
-      "name": "Verde Oscuro O2",
-      "slug": "green-dark-o2",
-      "hex": "#1A8A4A",
-      "rgb": "rgb(26, 138, 74)",
-      "cmyk": "C:81 M:0 Y:46 K:46",
-      "pantone": "[por definir]",
-      "status": "estimado",
-      "usage": "Variante oscura del primario. Hover de botones, textos sobre fondo claro, elementos de profundidad."
+      "name": "Granate Logo",
+      "slug": "logo-maroon",
+      "hex": "#9E1B16",
+      "rgb": "rgb(158, 27, 22)",
+      "source": "pixel del logo",
+      "usage": "Letra 'o' (círculo de oxígeno) del logotipo Go2."
     },
     {
       "name": "Blanco",
-      "slug": "white",
+      "slug": "logo-white",
       "hex": "#FFFFFF",
       "rgb": "rgb(255, 255, 255)",
-      "cmyk": "C:0 M:0 Y:0 K:0",
-      "status": "confirmado",
-      "usage": "Fondo principal, texto sobre fondos oscuros, variante negativa del logo."
-    },
-    {
-      "name": "Gris Claro",
-      "slug": "gray-light",
-      "hex": "#F5F5F5",
-      "rgb": "rgb(245, 245, 245)",
-      "cmyk": "C:0 M:0 Y:0 K:4",
-      "status": "estimado",
-      "usage": "Fondos de sección alternativa, separadores visuales, tarjetas de contenido."
-    },
-    {
-      "name": "Gris Texto",
-      "slug": "gray-text",
-      "hex": "#555555",
-      "rgb": "rgb(85, 85, 85)",
-      "cmyk": "C:0 M:0 Y:0 K:67",
-      "status": "estimado",
-      "usage": "Cuerpo de texto secundario, descripciones, metadatos."
-    },
-    {
-      "name": "Negro Suave",
-      "slug": "black-soft",
-      "hex": "#1A1A1A",
-      "rgb": "rgb(26, 26, 26)",
-      "cmyk": "C:0 M:0 Y:0 K:90",
-      "status": "estimado",
-      "usage": "Títulos principales, texto de alto contraste, fondos oscuros."
-    },
-    {
-      "name": "Color Área Cultura",
-      "slug": "area-culture",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área de Cultura."
-    },
-    {
-      "name": "Color Área Diversidad",
-      "slug": "area-diversity",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área de Diversidad / LGTBIQ+."
-    },
-    {
-      "name": "Color Área Salud",
-      "slug": "area-health",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área de Salud."
-    },
-    {
-      "name": "Color Área Sostenibilidad",
-      "slug": "area-sustainability",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área de Sostenibilidad."
-    },
-    {
-      "name": "Color Área Tecnología",
-      "slug": "area-tech",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área de Tecnología."
-    },
-    {
-      "name": "Color Área Social",
-      "slug": "area-social",
-      "hex": "[por definir]",
-      "status": "pendiente",
-      "usage": "Color de acento para el área Social."
+      "source": "pixel del logo",
+      "usage": "Contraformas del logotipo y centro de la 'o'."
     }
-  ]
+  ],
+  "web_palette": {
+    "orange": [
+      { "name": "Orange 100", "slug": "orange-100", "hex": "#FFB486", "usage": "Hover de menú, caption de carrusel, degradados." },
+      { "name": "Orange 300", "slug": "orange-300", "hex": "#FF9A5D", "usage": "Acento intermedio." },
+      { "name": "Orange 500 (Naranja principal)", "slug": "orange-500", "hex": "#F37F37", "usage": "Botón secundario, pestañas activas, naranja de marca web." },
+      { "name": "Orange 700", "slug": "orange-700", "hex": "#D85C0F", "usage": "Acento oscuro." },
+      { "name": "Orange 900", "slug": "orange-900", "hex": "#A94303", "usage": "Fondo de la barra superior del header." }
+    ],
+    "green": [
+      { "name": "Green 100", "slug": "green-100", "hex": "#B6EC54", "usage": "Acento claro." },
+      { "name": "Green 300", "slug": "green-300", "hex": "#9DDE29", "usage": "Acento intermedio." },
+      { "name": "Green 500 (Verde principal)", "slug": "green-500", "hex": "#7EBE0A", "usage": "Botón primario (fondo y borde)." },
+      { "name": "Green 700", "slug": "green-700", "hex": "#649B00", "usage": "Acento oscuro." },
+      { "name": "Green 900", "slug": "green-900", "hex": "#4B7500", "usage": "Acento más oscuro." }
+    ],
+    "grey": [
+      { "name": "Grey 100", "slug": "grey-100", "hex": "#C6C6C6", "usage": "Fondo claro." },
+      { "name": "Grey 300", "slug": "grey-300", "hex": "#B2B2B2", "usage": "Fondo." },
+      { "name": "Grey 500", "slug": "grey-500", "hex": "#999999", "usage": "Fondo medio." },
+      { "name": "Grey 700", "slug": "grey-700", "hex": "#787878", "usage": "Fondo oscuro." },
+      { "name": "Grey 900", "slug": "grey-900", "hex": "#5A5A5A", "usage": "Fondo más oscuro." }
+    ],
+    "neutral": [
+      { "name": "Blanco", "slug": "white", "hex": "#FFFFFF", "usage": "Texto sobre color y fondos generales." },
+      { "name": "Texto Menú", "slug": "menu-text", "hex": "#343435", "usage": "Enlaces del menú principal." },
+      { "name": "Gris Overlay", "slug": "overlay-dark", "hex": "#333333", "usage": "Overlay de imágenes (opacidad 0.5) y degradado de tarjetas." }
+    ]
+  },
+  "ui": {
+    "button_primary": { "background": "#7EBE0A", "border": "#7EBE0A", "text": "#FFFFFF", "weight": "bold", "border_radius": "15px" },
+    "button_secondary": { "background": "#F37F37", "text": "#FFFFFF", "weight": "bold", "border_radius": "15px" },
+    "image_radius": "15px",
+    "header_top_bar": "#A94303",
+    "menu_hover": "#FFB486"
+  }
 }

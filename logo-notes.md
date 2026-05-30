@@ -1,83 +1,94 @@
 # Logo Notes — Generación O2
 
-> Nota: El análisis se basa en la información disponible públicamente en la web. Para especificaciones técnicas precisas (vectores, pantones, guía de uso oficial), se requiere acceso a los archivos de diseño originales. Los ítems marcados como **[por definir]** deben completarse con el equipo de diseño.
+> Descripción basada en el análisis directo del archivo del logo (`logo_go2.png`, 767×477 px, PNG RGBA) y en su uso real dentro del CSS del sitio. Los colores son valores de píxel exactos. Lo que no consta se marca como **[por definir]**.
 
 ---
 
-## Descripción del logo
+## Logotipo principal: "Go2"
 
-- **Nombre del archivo:** `logo_go2.png`
-- **Ruta en servidor:** `wp-content/uploads/2024/05/logo_go2.png`
-- **Formato disponible:** PNG (rasterizado)
-- **Formato recomendado adicional:** SVG o PDF vectorial **[por obtener]**
+El logotipo es un **wordmark** (logotipo tipográfico) que representa las siglas **Go2** (Generación O2):
 
-### Elementos compositivos **[inferidos / por confirmar]**
+| Elemento | Descripción | Color exacto |
+|---|---|---|
+| **"G"** | Letra mayúscula grande, tipografía redondeada de palo seco | Verde `#93BD2F` |
+| **"o"** | Letra en forma de círculo (evoca el cero/oxígeno), con contraforma blanca interior | Granate / rojo `#9E1B16` |
+| **"2"** | Exponente superíndice arriba a la derecha (fórmula O₂) | Verde `#93BD2F` |
+| Fondo | Transparente (PNG RGBA) | — |
 
-El logotipo de Generación O2 articula el nombre de la organización y sus siglas **Go2** en una composición tipográfica. La "O2" remite a la fórmula química del oxígeno, reforzando la metáfora de la organización como elemento vital y renovador para la sociedad.
+**Lectura conceptual:** la composición "Go2" se lee a la vez como "Go2" (siglas de la organización) y como **O₂** (oxígeno), con la "o" central convertida en el círculo distintivo en granate. El conjunto transmite vitalidad y dinamismo a través de la tipografía rounded y la combinación verde + granate.
 
-| Elemento | Descripción |
-|---|---|
-| **Isotipo / símbolo** | Por definir (posible círculo o elemento orgánico asociado a O2) |
-| **Logotipo tipográfico** | "Generación O2" o "Go2" en tipografía sans-serif |
-| **Color principal** | Verde (tono exacto por definir) |
-| **Color secundario** | Blanco o negro según fondo |
-| **Proporciones** | Por definir |
+- **Archivo:** `logo_go2.png`
+- **Ruta web:** `wp-content/uploads/2024/05/logo_go2.png`
+- **Dimensiones:** 767 × 477 px
+- **Formato:** PNG con transparencia (RGBA)
+- **Altura de uso en el header:** 75px (definido en CSS)
+- **Formato vectorial (SVG/PDF):** **[por definir / por obtener del equipo]**
+
+---
+
+## Colores oficiales del logo
+
+| Uso | Hex | RGB |
+|---|---|---|
+| Verde (G + 2) | `#93BD2F` | rgb(147, 189, 47) |
+| Granate (o) | `#9E1B16` | rgb(158, 27, 22) |
+| Blanco (contraforma) | `#FFFFFF` | rgb(255, 255, 255) |
+
+> Nota: el verde del logo (`#93BD2F`) difiere ligeramente del verde de los botones de la web (`#7EBE0A`). Para aplicaciones de marca, el verde de referencia del **logo** es `#93BD2F`.
 
 ---
 
 ## Variantes del logo
 
-| Variante | Uso | Estado |
-|---|---|---|
-| **Color (positivo)** | Sobre fondos blancos o claros | Por confirmar |
-| **Blanco (negativo)** | Sobre fondos oscuros o de color | Por confirmar |
-| **Monocromo negro** | Documentos en blanco y negro | Por confirmar |
-| **Solo símbolo / isotipo** | Favicon, perfil de RRSS | Por confirmar |
-| **Horizontal** | Cabecera web, firma de email | Actualmente en uso (web) |
-| **Vertical / apilado** | Materiales impresos | Por confirmar |
+| Variante | Estado |
+|---|---|
+| **Color sobre fondo transparente / claro** | ✅ En uso (archivo oficial PNG) |
+| Versión en blanco (negativo) para fondos oscuros | **[por definir]** |
+| Versión monocromo (negro) | **[por definir]** |
+| Solo isotipo / favicon | **[por definir]** |
+| Versión horizontal vs. vertical | El logo actual es de proporción horizontal (767×477, ratio ~1.6:1) |
 
 ---
 
 ## Usos correctos
 
-- Usar siempre el archivo original (no capturas de pantalla o JPG comprimidos)
-- Mantener las proporciones originales — nunca estirar ni deformar
-- Respetar el espacio de protección (área libre alrededor del logo, equivalente a la altura de la "O")
-- Usar la variante adecuada según el fondo (positivo sobre claro, negativo sobre oscuro)
-- Tamaño mínimo recomendado: **[por definir]** px en digital / **[por definir]** mm en impresión
+- Usar siempre el archivo original PNG con transparencia (o el vectorial cuando esté disponible)
+- Mantener las proporciones originales (ratio ≈ 1.6:1) — nunca estirar ni deformar
+- Respetar un área de protección alrededor del logo
+- Sobre fondos claros, usar la versión a color tal cual
+- Respetar los colores oficiales: verde `#93BD2F` y granate `#9E1B16`
 
 ---
 
 ## Usos incorrectos
 
-- No cambiar los colores corporativos del logo
-- No añadir sombras, degradados externos o efectos 3D no originales
-- No rotar, sesgar ni deformar el logo
-- No colocar el logo sobre fondos con poco contraste
-- No recortar, enmarcar ni encerrar el logo en formas ajenas
-- No usar versiones antiguas o no oficiales
-- No reproducir el logo mediante texto (p. ej. escribir "GO2" en otra tipografía)
-- No superponer el logo sobre imágenes con mucho ruido visual sin caja de protección
+- No alterar los colores del logo (no recolorear la "o" en naranja ni cambiar el verde)
+- No deformar, rotar ni sesgar el logotipo
+- No añadir sombras, contornos o efectos no originales
+- No colocar el logo a color sobre fondos oscuros o con poco contraste (usar versión negativa cuando exista)
+- No reconstruir el logo con otra tipografía (la "Go2" en otra fuente no es el logo)
+- No colocar el logo sobre imágenes ruidosas sin caja de protección
 
 ---
 
-## Favicon y perfil de redes sociales
+## Sub-marca: "el efecto DAN" (podcast)
 
-- **Favicon web:** Versión simplificada del logo (isotipo o iniciales)
-- **Instagram:** @go2.bcn — imagen de perfil con logo **[verificar si es isotipo o logo completo]**
-- **LinkedIn / Facebook / Twitter:** Misma imagen de perfil **[por confirmar]**
+El proyecto de podcast **Efecto DAN** (en Radio Fabra) tiene su propia identidad visual independiente:
+
+- **Archivo:** `Efecto-DAN_Logo.png` (403 × 403 px, formato cuadrado)
+- **Composición:** Un **cerebro estilizado** (en degradado rosa/magenta) con **auriculares de podcast morados** y un micrófono, junto al texto "el efecto **DAN**" en blanco
+- **Paleta:** Rosa/magenta, morado y blanco sobre fondo negro
+- **Estilo:** Moderno, tecnológico, contrastado — distinto de la marca madre Go2
+
+> Esta sub-marca tiene una identidad propia que NO sigue la paleta verde-naranja de Generación O2. Es un proyecto con marca diferenciada.
 
 ---
 
-## Archivos solicitados al equipo de diseño
+## Archivos a solicitar al equipo de diseño
 
-Para completar esta sección se recomienda obtener:
-
-- [ ] Logo en SVG (vectorial)
-- [ ] Logo en PDF (para imprenta)
-- [ ] PNG transparente en alta resolución (mínimo 1000px de ancho)
-- [ ] Versión en blanco (para fondos oscuros)
+- [ ] Logo Go2 en formato vectorial (SVG / AI / PDF)
+- [ ] Versión negativa (blanca) para fondos oscuros
 - [ ] Versión monocromo negro
-- [ ] Guía de espacio de protección
-- [ ] Tamaños mínimos de uso
-- [ ] Pantone / CMYK para impresión
+- [ ] Isotipo aislado / favicon en alta resolución
+- [ ] Guía de área de protección y tamaños mínimos
+- [ ] Equivalencias Pantone / CMYK de `#93BD2F` y `#9E1B16` para imprenta
