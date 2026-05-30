@@ -82,15 +82,24 @@ Cargada desde Google Fonts en el `<head>`:
 | Texto de menú | `#343435` | Enlaces del menú principal |
 | Gris overlay / texto | `#333333` | Overlay de imágenes (opacidad 0.5), degradado de tarjetas |
 
-### Colores del logotipo (extraídos de los píxeles del PNG)
+### El logotipo Go2
 
-| Color | Hex | RGB |
+El logotipo **Go2** se compone así:
+
+- **"G"** mayúscula en **blanco** (`#FFFFFF`)
+- **"o"** minúscula en **rojo granate** (`#8B1A1A`)
+- **superíndice "2"** en **blanco** (`#FFFFFF`)
+- todo sobre **fondo negro** (`#000000`)
+
+La composición juega con la fórmula química del oxígeno (O₂), con la "o" granate como elemento distintivo.
+
+| Color del logo | Hex | RGB |
 |---|---|---|
-| **Verde logo** | `#93BD2F` | rgb(147, 189, 47) |
-| **Granate / rojo logo** | `#9E1B16` | rgb(158, 27, 22) |
-| Blanco (contraformas) | `#FFFFFF` | rgb(255, 255, 255) |
+| Blanco (G y ²) | `#FFFFFF` | rgb(255, 255, 255) |
+| **Rojo granate (o)** | `#8B1A1A` | rgb(139, 26, 26) |
+| Negro (fondo) | `#000000` | rgb(0, 0, 0) |
 
-> Importante: el **verde del logo** (`#93BD2F`) es ligeramente distinto del **verde de los botones web** (`#7EBE0A`). La "o" del logo es de color **granate/rojo** (`#9E1B16`), un tono que NO aparece en la paleta CSS de la web (la web usa naranjas para ese rol).
+> Nota: el verde de los botones de la web (`#7EBE0A`) y la paleta naranja del CSS corresponden a la interfaz del sitio, no al logotipo.
 
 ---
 

@@ -57,9 +57,10 @@ TIPOGRAFÍA PRINCIPAL: Gotham (GothamRounded — Light/Medium/Bold).
 TIPOGRAFÍA SECUNDARIA: Montserrat. ICONOS: Font Awesome.
 
 COLORES DEL LOGO:
-- Verde logo: #93BD2F
-- Granate/rojo logo: #9E1B16
-(El logo "Go2": la G y el exponente 2 en verde, la "o" en granate; juega con la fórmula O₂.)
+- Rojo granate Go2: #8B1A1A (acento secundario)
+- Negro fondo logo: #000000
+- Blanco: #FFFFFF
+LOGO "Go2": G mayúscula en blanco, "o" minúscula en rojo granate (#8B1A1A) y superíndice "2" en blanco, sobre fondo negro. Juega con la fórmula química del oxígeno (O₂).
 
 PALETA WEB:
 - Verde primario (botón principal): #7EBE0A

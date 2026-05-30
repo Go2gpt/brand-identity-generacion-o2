@@ -32,6 +32,20 @@
       "rgb": "rgb(255, 255, 255)",
       "source": "pixel del logo",
       "usage": "Contraformas del logotipo y centro de la 'o'."
+    },
+    {
+      "name": "Rojo Go2",
+      "slug": "logo-red",
+      "hex": "#8B1A1A",
+      "rgb": "rgb(139, 26, 26)",
+      "usage": "Logo, acento secundario."
+    },
+    {
+      "name": "Negro fondo logo",
+      "slug": "logo-black",
+      "hex": "#000000",
+      "rgb": "rgb(0, 0, 0)",
+      "usage": "Fondo del logotipo Go2."
     }
   ],
   "web_palette": {
